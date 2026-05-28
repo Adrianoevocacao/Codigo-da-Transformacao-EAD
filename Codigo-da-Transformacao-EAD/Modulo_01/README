@@ -1,0 +1,53 @@
+# 📝 Gerenciador de Tarefas — CLI
+
+> Um gerenciador de tarefas simples e funcional via terminal, desenvolvido em Python puro.
+
+---
+
+## 📌 Sobre o Projeto
+
+Este projeto foi desenvolvido como parte de uma atividade prática de programação,
+com o objetivo de demonstrar o uso de Python para resolver um problema do dia a dia:
+**organizar tarefas de forma simples e eficiente pelo terminal.**
+
+---
+
+## 🚀 Funcionalidades
+
+| Funcionalidade      | Descrição                                   |
+|---------------------|---------------------------------------------|
+| ➕ Adicionar tarefa  | Cria uma nova tarefa com data e hora        |
+| 📋 Listar tarefas   | Exibe todas as tarefas com status e ID      |
+| ✅ Concluir tarefa   | Marca uma tarefa como concluída pelo ID     |
+| 🗑️ Remover tarefa    | Remove uma tarefa da lista pelo ID          |
+| 💾 Persistência      | Salva as tarefas em arquivo `tarefas.json`  |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.8+**
+- Bibliotecas nativas: `json`, `os`, `datetime`
+- Sem dependências externas — roda em qualquer máquina com Python instalado
+
+---
+
+## ▶️ Como Executar
+
+### Pré-requisitos
+- Python 3 instalado ([download aqui](https://www.python.org/downloads/))
+
+### Passos
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# 2. Acesse a pasta
+cd seu-repositorio
+
+# 3. Execute o script
+python gerenciador_tarefas.py
+```
+
+### Exemplo de uso no terminal
